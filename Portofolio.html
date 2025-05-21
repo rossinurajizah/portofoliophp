@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Rossi</title>
+    <link rel="stylesheet" href="Portofolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png">
+            </div>
+            
+            <div class="menu-toggle">
+                <input type="checkbox" id="menu-checkbox"/>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+    
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+    
+                <!-- Tambahkan Profile ke dalam menu hanya untuk mobile -->
+                <li class="profile-item"><a href="#">Profile</a></li>
+            </ul>
+    
+            <!-- Ikon user hanya untuk desktop -->
+            <div class="user-icon"><i class="fa fa-user"></i></div>
+        </nav>
+    </header>    
+
+    <section class="hero">
+        <h1>I’m <span class="highlight">Rossi</span> <br> Fullstack Developer</h1>
+        <img src="images/profile1.png" alt="Rossi" class="profile-img">
+        <a href="#portfolio" class="porto-btn">Portfolio ↗</a>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <img src="images/profile2.png" alt="Rossi" class="about-img">
+            <div class="about-text">
+                <h2>About <span class="highlight">Me</span></h2>
+                <p>I am a junior Fullstack Developer and an Informatics student at Universitas Siliwangi. I have a strong interest in web development and design, with skills in HTML, CSS, JavaScript, PHP, and MySQL. I have experience in building responsive and user-friendly interfaces, as well as developing backend systems and managing databases.Additionally, I have a good understanding of UI/UX design using Figma, ensuring that applications are both functional and visually appealing. I am passionate about performance optimization, web security, and user experience, continuously learning to improve my development skills.Excited to contribute, collaborate, and grow in the world of fullstack development!</p>
+            </div>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <h2><span class="highlight">My</span> Skills</h2>
+        <div class="skills-container">
+            <div class="skill-box">
+                <img src="images/html.png" alt="HTML">
+                <p>HTML</p>
+                <span>85%</span>
+            </div>
+            <div class="skill-box">
+                <img src="images/css.png" alt="CSS">
+                <p>CSS</p>
+                <span>80%</span>
+            </div>
+            <div class="skill-box">
+                <img src="images/php.png" alt="PHP">
+                <p>PHP</p>
+                <span>70%</span>
+            </div>
+            <div class="skill-box">
+                <img src="images/figma.png" alt="Figma">
+                <p>Figma</p>
+                <span>85%</span>
+            </div>
+            <div class="skill-box">
+                <img src="images/js.png" alt="JavaScript">
+                <p>JS</p>
+                <span>70%</span>
+            </div>
+            <div class="skill-box">
+                <img src="images/mysql.png" alt="MySQL">
+                <p>MySQL</p>
+                <span>85%</span>
+            </div>
+        </div>
+    </section>
+    
+    <section class="hire-me">
+        <div class="hire-container">
+            <img src="images/profile3.png" alt="Rossi" class="hire-img">
+            <div class="hire-text">
+                <h2><span class="highlight">Why</span> Hire Me?</h2>
+                <p>I have strong expertise in both front-end and back-end development, allowing me to build seamless, efficient, and scalable web applications. With a problem-solving mindset and a keen eye for user experience, I deliver high-quality solutions tailored to your needs.</p>
+                <div class="stats">
+                    <div>
+                        <h3>320+</h3>
+                        <p>Project Completed</p>
+                    </div>
+                    <div>
+                        <h3>230+</h3>
+                        <p>Project Completed</p>
+                    </div>
+                </div>
+                <a href="#contact" class="hire-btn">Hire me</a>
+            </div>
+        </div>
+    </section> 
+    <section class="testimonials">
+        <h2><span class="highlight">My</span> Testimonial</h2>
+        <div class="testimonial-container">
+            <div class="testimonial-card">
+                <img src="images/alifa.png" alt="Alifa Gustia Rahmi">
+                <p>Clean, structured code and a solid understanding of both design and functionality.</p>
+                <h3>Alifa Gustia Rahmi</h3>
+                <span>UI/UX Designer At CreativeWeb</span>
+            </div>
+            <div class="testimonial-card main">
+                <img src="images/hilma.png" alt="Hilma Amalia Putri">
+                <p>A skilled Fullstack Developer who seamlessly handles both frontend and backend, delivering efficient and user-friendly applications.</p>
+                <h3>Hilma Amalia Putri</h3>
+                <span>Lead Developer At TechSolutions</span>
+            </div>
+            <div class="testimonial-card">
+                <img src="images/aura.png" alt="Aura Alima Thufailah">
+                <p>Great problem-solving skills and a strong grasp of web development. A pleasure to work with!</p>
+                <h3>Aura Alima Thufailah</h3>
+                <span>Project Manager At DigitalX</span>
+            </div>
+        </div>
+    </section>    
+    <section class="projects">
+        <h2><span class="highlight">My</span> Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="images/project1.png" alt="Website Pasar Bumi">
+                <div class="project-info">
+                    <h3>01</h3>
+                    <h4>Website Pasar Bumi</h4>
+                    <p>Pasar Bumi is an e-commerce platform that connects farmers directly with buyers, making it easier to market agricultural products and ensuring price transparency.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>02</h3>
+                    <h4>Website Vecalculate</h4>
+                    <p>Vecalculate is a web-based calculation tool designed to simplify vector multiplication and matrix determinant computations.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                <img src="images/project2.png" alt="Website Vecalculate">
+            </div>
+            
+            <div class="project-card">
+                <img src="images/project3.png" alt="Website Tien Salon">
+                <div class="project-info">
+                    <h3>03</h3>
+                    <h4>Website Tien Salon</h4>
+                    <p>TIEN SALON is a web-based salon management platform developed to streamline booking, payment, and customer management.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+<section class="contact">
+    <div class="container">
+        <!-- FORM KONTAK -->
+        <div class="contact-form">
+            <form id="contactForm" action="submit_contact.php" method="POST">
+                <input type="text" id="name" name="name" placeholder="Nama lengkap*" maxlength="50" required>
+                <input type="email" id="email" name="email" placeholder="Email*" maxlength="50" required>
+                <input type="text" id="phone" name="phone" placeholder="Nomor Handphone*" maxlength="15" required>
+                <textarea id="message" name="message" placeholder="Pesan*" maxlength="300" required></textarea>
+
+                <div class="contact-actions">
+                    <button type="submit" class="send-btn">Kirim</button>
+                    <div class="social-buttons">
+                        <button class="social-btn" type="button"><i class="fab fa-facebook"></i></button>
+                        <button class="social-btn" type="button"><i class="fab fa-reddit"></i></button>
+                        <button class="social-btn" type="button"><i class="fab fa-twitter"></i></button>
+                        <button class="social-btn" type="button"><i class="fab fa-discord"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!-- CONTACT INFO -->
+        <div class="contact-info">
+            <h2>Let's <span class="highlight">talk</span> for</h2>
+            <h3>Something special</h3>
+            <p>I seek to push the limits of creativity to create high-engaging, user-friendly, and memorable interactive experiences.</p>
+            <p class="email">rossinurajizah@gmail.com</p>
+            <p class="phone">+628123456709</p>
+        </div>
+    </div>
+</section>
+
+<!-- POPUP -->
+<div id="popupMessage" style="display:none; position: fixed; top: 20%; left: 50%; transform: translateX(-50%);
+ background: #eee; padding: 20px; border: 1px solid #ccc; border-radius: 5px;">
+    <p id="popupText"></p>
+    <button onclick="document.getElementById('popupMessage').style.display='none'">Tutup</button>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$('#contactForm').submit(function(e) {
+    e.preventDefault();
+    
+    $.ajax({
+        url: 'submit_contact.php',
+        method: 'POST',
+        data: $(this).serialize(),
+        dataType: 'json',
+        success: function(response) {
+            $('#popupText').text(response.message);
+            $('#popupMessage').show();
+            if(response.status === 'success') {
+                $('#contactForm')[0].reset();
+            }
+        },
+        error: function() {
+            $('#popupText').text('Terjadi kesalahan saat mengirim data.');
+            $('#popupMessage').show();
+        }
+    });
+});
+</script>
+<!-- Footer Section -->
+<footer>
+    <div class="container">
+        <div class="footer-left">
+            <div class="footer-social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                <a href="#"><i class="fab fa-google"></i></a>
+            </div>
+            <p>The right solutions at the right time drive success. I help build seamless and efficient web applications to keep you ahead.</p>
+        </div>        
+        <div class="footer-links">
+            <h4>Quick Link</h4>
+            <ul>
+                <li><i class="fas fa-chevron-right"></i> <a href="index.html">Home</a></li>
+                <li><i class="fas fa-chevron-right"></i> <a href="about.html">About</a></li>
+                <li><i class="fas fa-chevron-right"></i> <a href="skills.html">Skills</a></li>
+                <li><i class="fas fa-chevron-right"></i> <a href="portfolio.html">Portfolio</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-contact">
+            <h4>Contact</h4>
+            <p><i class="fas fa-map-marker-alt"></i> 44 Danwers, NY City, USA, 70-102</p>
+            <p><i class="fas fa-envelope"></i> <a href="mailto:rossinurajizah@gmail.com">rossinurajizah@gmail.com</a></p>
+            <p><i class="fas fa-phone"></i> <a href="tel:+628123456709">+62 812-3456-709</a></p>
+        </div>
+        
+        <div class="footer-links">
+            <h4>Quick Link</h4>
+            <ul>
+                <li><i class="fas fa-chevron-right"></i> <a href="terms.html">Terms And Conditions</a></li>
+                <li><i class="fas fa-chevron-right"></i> <a href="privacy.html">Privacy Policy</a></li>
+                <li><i class="fas fa-chevron-right"></i> <a href="security.html">Security Policy</a></li>
+                <li><i class="fas fa-chevron-right"></i> <a href="cookie.html">Cookie Policy</a></li>
+                <li><i class="fas fa-chevron-right"></i> <a href="service-policy.html">Service Usage Policy</a></li>
+            </ul>
+        </div>
+        
+    </div>
+    <p class="copyright">Copyright &copy; 2025 rossinurajizah. Hak Cipta Dilindungi</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
